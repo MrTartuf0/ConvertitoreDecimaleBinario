@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.titolo{
+    background-color: #0E6BA8;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 77px;
+    border-top-right-radius: 77px;
+
+}
+.contenitore{
+    border-radius: 77px;
+    margin-top: 100px;
+    width: 700px;
+    height: 400px;
+    border: 1px solid grey;
+}
+.testo{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#numeroDecimale{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#numeroDecimale:out-of-range{
+    background-color: lightcoral;
+}
+#numeroBinario{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#bottone{
+    padding: 10px;
+    font-size: 20px;
+
+}
